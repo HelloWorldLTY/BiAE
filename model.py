@@ -12,6 +12,14 @@ import sklearn.preprocessing as preprocessing
 import loompy as lp
 import umap.umap_ as umap
 from sklearn.utils import shuffle
+from scipy.stats.mstats import gmean
+
+# Preprocessing protein data (ADT)
+def clr_rate(protein):
+      pro = protein+0.001
+  g_mean = gmean(pro, axis=1)
+  clr_protein = np.log(np.array([i/j for i,j in zip(pro,g_mean)]))
+  return clr_protein
 
 def KNN_Matching(data1, data2, label_list):
     celltype1 = label_list[0]
