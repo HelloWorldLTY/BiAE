@@ -1,2 +1,2 @@
 # BiAE
-Code for paper: Bidirection Prediction Model for Transcriptomics andProteomics (Coming soon)
+Code for paper: Bidirection Prediction Model for Transcriptomics and Proteomics (Coming soon)
