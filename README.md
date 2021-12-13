@@ -1,5 +1,5 @@
 # BiAE
-Code for paper: Bidirection Prediction Model for Transcriptomics and Proteomics (Coming soon)
+Code for paper: Bidirection Prediction Model for Transcriptomics and Proteomics ([link](https://drive.google.com/file/d/1xrTgLdfFXYdK_WdE3JYxXMuIFoyUl8yu/view))
 
 # Datasets
 For the dataset we use, please refer:
